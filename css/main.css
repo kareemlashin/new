@@ -1,0 +1,447 @@
+*{
+    font-family: 'Playfair Display', serif;
+}
+.navbar .navbar-brand
+{
+    font-size:40px;
+    font-weight: 500;
+color: #fff;
+}
+.bg-light
+{
+    background-color: transparent !important;
+
+}
+.navbar .navbar-brand span
+{
+    color:#fba83b;
+}
+.navbar .navbar-nav .nav-item  .nav-link
+{
+    font-size: 22px;
+    font-weight: 400;
+    color: #fff;
+}
+.navbar .navbar-nav .active  .nav-link
+{
+    color: #fba83b;
+}
+.navbar .navbar-nav .nav-item  .nav-link:hover{
+    color: #fba83b;
+    border:1px solid #fba83b
+}
+header
+{background-image: url(../images/slider-1.jpg);
+height: 100vh;
+background-size: cover;
+color: #fff;
+position: relative;
+}
+.overly
+{
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100%;
+}
+header p{
+    font-size: 82px;
+    font-weight: 900;
+}
+button{
+    width: 160px;
+    height: 50px;
+}
+.bot
+{
+    width: 25px;
+    height: 50px;
+    border: 1px solid #fff;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+}
+.ball
+{
+    width: 10px;
+    height: 10px;
+    background-color: rgba(255, 255, 255,0.6);
+    animation-duration: 1.5s;
+    animation-name: top-bottom;
+    animation-iteration-count: infinite;
+}
+@keyframes top-bottom
+{
+    0%{
+        margin-top: 5px;
+    }
+
+    10%{
+        margin-top: 10px;
+    }
+
+    20%{
+        margin-top: 15px;
+    }
+
+    30%{
+        margin-top: 20px;
+    }
+
+    40%{
+        margin-top: 25px;
+    }
+
+    50%{
+        margin-top: 30px;
+    }
+
+    60%{
+        margin-top: 35px;
+    }
+
+    70%{
+        margin-top: 40px;
+    }
+
+    80%{
+        margin-top:43px;
+    }
+
+    90%{
+        margin-top: 48px;
+    }
+
+    100%{
+        margin-top: 50px;
+        opacity: 0;
+    }
+}
+.sec-1
+{
+    overflow: hidden;
+}
+.container-fluid
+{
+    padding: 0;
+}
+.sec-1 h2{
+    font-size: 56px;
+    font-weight: 300;
+}
+.sec-1 p
+{ font-size: 15px;
+    font-weight: 400;
+    color: #999999;
+}
+.btn
+{
+    border-radius: 0 !important;
+}
+@media (max-width:800px)
+{
+    .sec-1 h2{
+        font-size: 26px;
+        font-weight: 300;
+    }
+    header p{
+        font-size: 42px;
+        font-weight: 900;
+    }
+    .disc{
+        padding-left:20px ;
+    margin-top: 20px;
+    }
+}
+.sec-2
+{
+    background-color: #f0f0f0;
+}
+.sec-2 .row .card-1 h4
+{
+color: #fba83b;
+}
+.sec-2 .row .card-1 p
+{
+    font-size: 15px;
+    color: #999999;
+
+}
+.sec-2 .row .card-1 i{
+font-size: 60px;
+color: #d6dadd;
+}
+.sec-2 .title p
+{
+    font-size: 16px;
+    font-weight:300;
+color: #999999;
+}
+.sec-2 .title h3
+{
+    font-size: 56px;
+font-weight: 300;
+}
+.sec-3 .title p
+{
+    font-size: 16px;
+    font-weight:300;
+color: #999999;
+}
+.sec-3 .title h3
+{
+    font-size: 56px;
+font-weight: 300;
+}
+.sec-3 ul li
+{
+    display: inline;
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.sec-3 ul
+{
+    padding: 0;
+}
+.sec-3 .active
+{
+border:1px solid #000;
+padding: 10px;
+}
+.sec-4 .title p
+{
+    font-size: 16px;
+    font-weight:300;
+color: #999999;
+}
+.sec-4 .title h3
+{
+    font-size: 56px;
+font-weight: 300;
+}
+.sec-5 .title p
+{
+    font-size: 16px;
+    font-weight:300;
+color: #999999;
+}
+.sec-5 .title h3
+{
+    font-size: 56px;
+font-weight: 300;
+}
+.sec-6 .title p
+{
+    font-size: 16px;
+    font-weight:300;
+color: #999999;
+}
+.sec-6 .title h3
+{
+    font-size: 56px;
+font-weight: 300;
+}
+@media (max-width:800px)
+{
+    .sec-1 h2{
+        font-size: 26px;
+        font-weight: 300;
+    }
+    header p{
+        font-size: 42px;
+        font-weight: 900;
+    }
+    .disc{
+        padding-left:20px ;
+    margin-top: 20px;
+    }
+    .sec-3 .title h3
+{
+    font-size: 26px;
+font-weight: 300;
+}
+.sec-2 .title h3
+{
+    font-size: 26px;
+font-weight: 300;
+}
+.sec-4 .title h3
+{
+    font-size: 26px;
+font-weight: 300;
+}
+.sec-4 .title h3
+{
+    font-size: 26px;
+font-weight: 300;
+}
+.sec-5 .title h3
+{
+    font-size: 26px;
+font-weight: 300;
+}
+.sec-5 .title h3
+{
+    font-size: 26px;
+font-weight: 300;
+}
+}
+.sec-3 p
+{
+font-weight:400;
+font-size: 15px;
+color: #999;
+}
+.sec-3 span
+{
+    color: #fba83b;
+    font-weight:500;
+font-size:25px;
+}
+.sec-3 h3
+{
+
+    font-weight:500;
+    font-size:20px ;
+}
+@media (max-width:800px)
+{
+    .sec-4 .col-md-3
+    {
+        margin-bottom: 20px;
+    }
+}
+.sec-5
+{
+    background-color: #f0f0f0;
+}
+.sec-5 i
+{
+    font-size: 80px;
+    color: #d6dadd
+    ;
+}
+.sec-5 .col-md-4 p
+{
+    font-size: 15px;
+}
+.sec-5 .col-md-4 h5
+{
+    font-size: 50px;
+}
+.sec-6 .row img
+{
+    height: 300px;
+}
+.im-2
+{
+    height: 300px;
+    background-image: url(../images/img_isotope_8_thumb.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+.im-1
+{
+    height: 300px;
+    background-image: url(../images/menu_3.jpg);
+    background-size: cover;
+    position: relative;
+
+}
+.im-3
+{
+    height: 300px;
+    background-image: url(../images/img_isotope_11_thumb.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+.im-4
+{
+    height: 300px;
+    background-image: url(../images/menu_3.jpg);
+    background-size: cover;
+    position: relative;
+
+}
+.trans
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top:0;
+    opacity: 0.3;
+    transition: 0.3s all;
+}
+.im-1:hover .trans ,.im-2:hover .trans , .im-3:hover .trans , .im-4:hover .trans
+{
+    opacity: 0.6;
+}
+
+
+.title-4
+{
+    color: #fff;
+    position: absolute;
+    z-index: 111111111111;
+}
+.sec-7 .col-md-3
+{
+    background-color: #000;
+    color: #fff;
+}
+.sec-7 .col-md-3 ul
+{
+    list-style-type: none;
+    padding: 0;
+line-height: 30px;
+color: #999;
+}
+.sec-7 .col-md-3 h6
+{
+    border-bottom: 2px dotted #999;
+    color: #fba83b;
+}
+.btn-2
+{
+    background-color: #000;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    width: 190px;
+    height: 50px;
+    border: none;
+}
+
+footer p
+{
+    color: #999;
+    font-weight: 400;
+    font-size: 15px;
+}
+footer h5
+{
+    color: #ccc;
+    font-weight: 500;
+    font-size: 15px;
+}
+footer ul
+{
+    padding: 0;
+    list-style-type: none;
+    padding-top:10px ;
+}
+.contact-icon ul li
+{
+    display: inline;
+}
+.end{
+    color: #999;
+}
+.end span
+{
+    color: #fba83b;
+}
